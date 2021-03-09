@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ys-medical-hystrix-dashboard" />
+        <module name="ys-medical-order-feign" />
+        <module name="ys-medical-order" />
+        <module name="ys-medical-payment_a" />
+        <module name="ys-medical-payment_b" />
+        <module name="ys-medical-payment-zk-a" />
+        <module name="ys-medical-order-consul" />
+        <module name="ys-medical-common" />
+        <module name="ys-medical-payment-consul" />
+        <module name="ys-medical-payment-hystrix-a" />
+        <module name="ys-medical-eureka_c" />
+        <module name="ys-medical-eureka_b" />
+        <module name="ys-medical-eureka_a" />
+        <module name="ys-medical-config-center" />
+        <module name="ys-medical-gateway" />
+        <module name="ys-medical-order-zk" />
+        <module name="ys-medical-order-feign-hystrix" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ys-medical-common" target="1.8" />
+      <module name="ys-medical-config-center" target="1.8" />
+      <module name="ys-medical-eureka_a" target="1.8" />
+      <module name="ys-medical-eureka_b" target="1.8" />
+      <module name="ys-medical-eureka_c" target="1.8" />
+      <module name="ys-medical-gateway" target="1.8" />
+      <module name="ys-medical-housekeeper" target="1.8" />
+      <module name="ys-medical-hystrix-dashboard" target="1.8" />
+      <module name="ys-medical-order" target="1.8" />
+      <module name="ys-medical-order-consul" target="1.8" />
+      <module name="ys-medical-order-feign" target="1.8" />
+      <module name="ys-medical-order-feign-hystrix" target="1.8" />
+      <module name="ys-medical-order-zk" target="1.8" />
+      <module name="ys-medical-payment-consul" target="1.8" />
+      <module name="ys-medical-payment-hystrix-a" target="1.8" />
+      <module name="ys-medical-payment-zk-a" target="1.8" />
+      <module name="ys-medical-payment_a" target="1.8" />
+      <module name="ys-medical-payment_b" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

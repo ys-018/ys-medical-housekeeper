@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ys-018/ys-medical-housekeepers.git # github 上面的 git 仓库名称
+          uri: git@github.com:ys-018/ys-medical-housekeepers.git # github 上面的 git 仓库名称
           # 搜索目录
           search-paths:
             - ys-medical-housekeepers

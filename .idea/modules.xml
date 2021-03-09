@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ys-medical-common/ys-medical-common.iml" filepath="$PROJECT_DIR$/ys-medical-common/ys-medical-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-medical-config-center/ys-medical-config-center.iml" filepath="$PROJECT_DIR$/ys-medical-config-center/ys-medical-config-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-medical-eureka_a/ys-medical-eureka_a.iml" filepath="$PROJECT_DIR$/ys-medical-eureka_a/ys-medical-eureka_a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-medical-eureka_b/ys-medical-eureka_b.iml" filepath="$PROJECT_DIR$/ys-medical-eureka_b/ys-medical-eureka_b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-medical-eureka_c/ys-medical-eureka_c.iml" filepath="$PROJECT_DIR$/ys-medical-eureka_c/ys-medical-eureka_c.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-medical-gateway/ys-medical-gateway.iml" filepath="$PROJECT_DIR$/ys-medical-gateway/ys-medical-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-medical-housekeeper.iml" filepath="$PROJECT_DIR$/ys-medical-housekeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-medical-hystrix-dashboard/ys-medical-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/ys-medical-hystrix-dashboard/ys-medical-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-medical-order/ys-medical-order.iml" filepath="$PROJECT_DIR$/ys-medical-order/ys-medical-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-medical-order-consul/ys-medical-order-consul.iml" filepath="$PROJECT_DIR$/ys-medical-order-consul/ys-medical-order-consul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-medical-order-feign/ys-medical-order-feign.iml" filepath="$PROJECT_DIR$/ys-medical-order-feign/ys-medical-order-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-medical-order-feign-hystrix/ys-medical-order-feign-hystrix.iml" filepath="$PROJECT_DIR$/ys-medical-order-feign-hystrix/ys-medical-order-feign-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-medical-order-zk/ys-medical-order-zk.iml" filepath="$PROJECT_DIR$/ys-medical-order-zk/ys-medical-order-zk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-medical-payment-consul/ys-medical-payment-consul.iml" filepath="$PROJECT_DIR$/ys-medical-payment-consul/ys-medical-payment-consul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-medical-payment-hystrix-a/ys-medical-payment-hystrix-a.iml" filepath="$PROJECT_DIR$/ys-medical-payment-hystrix-a/ys-medical-payment-hystrix-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-medical-payment-zk-a/ys-medical-payment-zk-a.iml" filepath="$PROJECT_DIR$/ys-medical-payment-zk-a/ys-medical-payment-zk-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-medical-payment_a/ys-medical-payment_a.iml" filepath="$PROJECT_DIR$/ys-medical-payment_a/ys-medical-payment_a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-medical-payment_b/ys-medical-payment_b.iml" filepath="$PROJECT_DIR$/ys-medical-payment_b/ys-medical-payment_b.iml" />
+    </modules>
+  </component>
+</project>

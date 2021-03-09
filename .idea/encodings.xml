@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ys-medical-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-config-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-config-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-eureka_a/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-eureka_a/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-eureka_b/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-eureka_b/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-eureka_c/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-eureka_c/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-hystrix-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-hystrix-dashboard/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-order-consul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-order-consul/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-order-feign-hystrix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-order-feign-hystrix/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-order-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-order-feign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-order-zk/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-order-zk/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-order/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-payment-consul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-payment-consul/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-payment-hystrix-a/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-payment-hystrix-a/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-payment-zk-a/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-payment-zk-a/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-payment_a/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-payment_a/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-payment_b/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-medical-payment_b/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
