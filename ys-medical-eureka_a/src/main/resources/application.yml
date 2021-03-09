@@ -1,0 +1,25 @@
+# 优先级，bootstrap.yaml 高于 application-dev.yaml，所以 nacos 的配置一定要配置在 bootstrap.yaml 中
+server:
+  port: 7001
+
+eureka:
+  instance:
+    # 单机版的可以叫 localhost ，但是伪集群（在一台电脑上模拟集群）的不能重名，需要修改 hosts 文件
+    # hosts 文件位置 C:\Windows\System32\drivers\etc
+    # hostname: localhost # eureka 服务端的实例名称 (单机版)
+    hostname: eureka7001.com # eureka 服务端的实例名称 (伪集群地址)
+  client:
+    # false 表示不向注册中心注册自己
+    register-with-eureka: false
+    # false 表示自己端就是注册中心，我的职责就是维护服务实例，并不需要检索服务
+    fetch-registry: false
+    service-url:
+      # 配置与 eureka server 交互的地址查询服务和注册服务都需要依赖这个地址
+      # defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ #单机版注册地址
+      defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  # 关闭 eureka 的自我保护机制，保证不可用服务及时被踢出，不建议
+  #server:
+    # 默认是开启自我保护的，也就是在服务掉线之后不会立即删除
+    #enable-self-preservation: false
+    # 默认检查心跳是 90 秒
+    #eviction-interval-timer-in-ms: 2000

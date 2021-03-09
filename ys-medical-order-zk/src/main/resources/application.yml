@@ -1,0 +1,13 @@
+server:
+  port: 83
+
+#服务别名--注册 zookeeper 到注册中心的名称
+# zookeeper 和 eureka 的区别就是
+#  eureka 默认开启自我保护，即一段时间检查不到心跳时，不会删除节点
+#  zookeeper 如果在一段时间内检查不到心跳，就会删除节点，即为临时节点
+spring:
+  application:
+    name: ys-medical-order-zk
+  cloud:
+    zookeeper:
+      connect-string: 192.168.226.129:2181

@@ -1,0 +1,14 @@
+server:
+  port: 8004
+
+spring:
+  # 服务名称
+  application:
+    name: ys-medical-payment-consul
+  # consul 注册中心地址
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}

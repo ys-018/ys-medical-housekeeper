@@ -1,0 +1,7 @@
+server:
+  port: 9001
+
+# 配置 hystrixdashboard,如果只在 8005 启动类中配置了 @Bean 之后，还是报错，这里必须添加这个
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "localhost"

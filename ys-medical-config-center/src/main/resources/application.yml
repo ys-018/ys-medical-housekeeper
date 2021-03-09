@@ -1,0 +1,24 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: ys-medical-config # 注册到 eureka 服务器的服务名
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ys-018/ys-medical-housekeepers.git # github 上面的 git 仓库名称
+          # 搜索目录
+          search-paths:
+            - ys-medical-housekeepers
+          force-pull: true
+          username: ys-018
+          passphrase: 786165993wdz018
+      label: main # 读取分支
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka

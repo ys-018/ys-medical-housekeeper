@@ -1,0 +1,19 @@
+server:
+  port: 82
+
+eureka:
+  client:
+    register-with-eureka: false # openfeign 是一个客户端，不在注册 eureka
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+
+# openfeign 自带了 ribbon ，这里需要设置 ribbon 的响应超时时间
+ribbon:
+  # 指的是建立连接所用的时间，适用于网络状况正常的情况下，两端连接所用的时间
+  ReadTimeout: 5000
+  # 指的是建立连接后从服务器读取到可用资源所用的时间
+  ConnectTimeout: 5000
+logging:
+  level:
+    # feign 日志以什么级别监控那个接口
+    com.ys.service.PaymentFeignService: debug

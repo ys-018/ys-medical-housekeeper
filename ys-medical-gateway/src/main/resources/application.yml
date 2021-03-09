@@ -1,0 +1,62 @@
+server:
+  port: 9527
+
+eureka:
+  instance:
+    hostname: ys-medical-gateway-service
+  client: #服务提供者 provider 注册进 eureka 服务列表内
+    service-url:
+      register-with-eureka: true
+      fetch-registry: true
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+
+spring:
+  application:
+    name: ys-medical-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true # 开启从注册中心动态创建路由的功能，利用微服务名进行路由
+      routes:
+        - id: payment-a                    # 路由的 ID  ，没有固定的规则，但是要求唯一，建议配合服务名
+          # uri: http://localhost:8001       # 匹配后提供服务的路由地址
+          uri: lb://ys-medical-payment     # 匹配后提供服务的路由地址，即 eureka 上的注册地址
+          predicates:
+            - Path=/payment/getPaymentById/**         # 断言，路径相匹配的进行路由
+            # - After=2021-03-04T22:49:58.511+08:00[Asia/Shanghai]  # 表示该路由在当前时间之后才有效
+            - Between=2021-03-04T21:49:58.511+08:00[Asia/Shanghai],2021-03-04T22:49:58.511+08:00[Asia/Shanghai] # 表示在区间内有效
+            - Cookie=username,ys # 需要两个参数，一个 Cookie name,一个是正则表达式，路由规则会通过获取对应的 Cookie name 值和正则表达式去匹配，如果匹配上则执行
+            - Header=X-Request-Id,\d+ # 需要两个参数，一个属性名称和一个正则表达式，这个属性值和正则表达式匹配则执行
+            - Query=age,\d+ # 需要带参数才能执行
+            - Method=GET # 必须是 get 请求
+            # cmd 下请求 curl http://localhost:9527/payment/getPaymentById/1?age=2 --cookie "username=ys" -H "X-Request-Id:1" 相当于 get 请求
+        - id: payment-b
+          # uri: http://localhost:8001
+          uri: lb://ys-medical-payment
+          predicates:
+            - Path=/payment/getPayment/LB/**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

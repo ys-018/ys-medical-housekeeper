@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace 强调的是映射那个 dao 接口-->
+<mapper namespace="com.ys.dao.PaymentDao">
+
+    <!-- BaseResultMap 的映射  -->
+    <resultMap type="com.ys.entity.Payment" id="BaseResultMap">
+        <!-- property Java字段, column 数据库字段, jdbcType 数据库字段类型 -->
+        <result property="id" column="id" jdbcType="BIGINT"/>
+        <result property="serial" column="serial" jdbcType="VARCHAR"/>
+    </resultMap>
+
+
+    <!-- parameterType 这里的参数类型是实体类，在 application.yml 中配置了统一的别名 -->
+    <!-- 设置useGeneratedKeys为 true，在执行插入记录之后，可以读取到数据库自动生成的主键ID -->
+    <insert id="save" parameterType="Payment" useGeneratedKeys="true" keyProperty="id">
+        insert into payment(serial) value (#{serial});
+    </insert>
+    
+    <select id="getPaymentById" parameterType="Long" resultMap="BaseResultMap">
+        select * from payment where id=#{id};
+    </select>
+
+</mapper>

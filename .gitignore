@@ -1,0 +1,18 @@
+# Project exclude paths
+/ys-medical-common/target/
+/ys-medical-config-center/target/
+/ys-medical-eureka_a/target/
+/ys-medical-eureka_b/target/
+/ys-medical-eureka_c/target/
+/ys-medical-gateway/target/
+/ys-medical-hystrix-dashboard/target/
+/ys-medical-order/target/
+/ys-medical-order-consul/target/
+/ys-medical-order-feign/target/
+/ys-medical-order-feign-hystrix/target/
+/ys-medical-order-zk/target/
+/ys-medical-payment-consul/target/
+/ys-medical-payment-hystrix-a/target/
+/ys-medical-payment-zk-a/target/
+/ys-medical-payment_a/target/
+/ys-medical-payment_b/target/
