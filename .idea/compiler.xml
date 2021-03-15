@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ys-medical-hystrix-dashboard" />
         <module name="ys-medical-order-feign" />
+        <module name="ys-medical-config-client-bus" />
         <module name="ys-medical-order" />
         <module name="ys-medical-payment_a" />
         <module name="ys-medical-payment_b" />
         <module name="ys-medical-payment-zk-a" />
-        <module name="ys-medical-order-consul" />
+        <module name="ys-medical-config-clent" />
         <module name="ys-medical-common" />
+        <module name="ys-medical-order-consul" />
         <module name="ys-medical-payment-consul" />
         <module name="ys-medical-payment-hystrix-a" />
         <module name="ys-medical-eureka_c" />
@@ -28,6 +30,8 @@
     <bytecodeTargetLevel>
       <module name="ys-medical-common" target="1.8" />
       <module name="ys-medical-config-center" target="1.8" />
+      <module name="ys-medical-config-clent" target="1.8" />
+      <module name="ys-medical-config-client-bus" target="1.8" />
       <module name="ys-medical-eureka_a" target="1.8" />
       <module name="ys-medical-eureka_b" target="1.8" />
       <module name="ys-medical-eureka_c" target="1.8" />

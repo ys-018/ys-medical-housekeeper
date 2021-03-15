@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ys-medical-common/ys-medical-common.iml" filepath="$PROJECT_DIR$/ys-medical-common/ys-medical-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/ys-medical-config-center/ys-medical-config-center.iml" filepath="$PROJECT_DIR$/ys-medical-config-center/ys-medical-config-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-medical-config-clent/ys-medical-config-clent.iml" filepath="$PROJECT_DIR$/ys-medical-config-clent/ys-medical-config-clent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-medical-config-client-bus/ys-medical-config-client-bus.iml" filepath="$PROJECT_DIR$/ys-medical-config-client-bus/ys-medical-config-client-bus.iml" />
       <module fileurl="file://$PROJECT_DIR$/ys-medical-eureka_a/ys-medical-eureka_a.iml" filepath="$PROJECT_DIR$/ys-medical-eureka_a/ys-medical-eureka_a.iml" />
       <module fileurl="file://$PROJECT_DIR$/ys-medical-eureka_b/ys-medical-eureka_b.iml" filepath="$PROJECT_DIR$/ys-medical-eureka_b/ys-medical-eureka_b.iml" />
       <module fileurl="file://$PROJECT_DIR$/ys-medical-eureka_c/ys-medical-eureka_c.iml" filepath="$PROJECT_DIR$/ys-medical-eureka_c/ys-medical-eureka_c.iml" />

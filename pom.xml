@@ -27,6 +27,8 @@
       <module>ys-medical-hystrix-dashboard</module>
       <module>ys-medical-gateway</module>
       <module>ys-medical-config-center</module>
+      <module>ys-medical-config-clent</module>
+      <module>ys-medical-config-client-bus</module>
 
   </modules>
 
